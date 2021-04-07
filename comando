@@ -1,1 +1,1 @@
-python BeamWriteToBigQuery.py --input gs://bd1_daily_food_orders/food_daily.csv --output beamdemo1:food_orders_dataset.cleared_orders --temp_location gs://bd1_daily_food_orders
+python BeamWriteToBigQuery.py --input gs://bd1_daily_food_orders/food_daily.csv --datasetid beamdemo1.food_orders_dataset --output beamdemo1:food_orders_dataset.cleared_orders --temp_location gs://bd1_daily_food_orders
